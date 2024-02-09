@@ -5,9 +5,12 @@
     border: 2px solid rgb(167, 167, 167);
     border-radius: 1rem;
     padding: .45rem .3rem;
+    transition: all .5s;
+    
 }
 
 .selected {
+
     margin-left: 2rem;
     transition: all .5s;
 }
@@ -20,6 +23,7 @@
 }
 
 .container-right {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
